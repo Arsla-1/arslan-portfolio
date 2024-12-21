@@ -17,14 +17,14 @@ const Contact = () => {
           <form
             name="portfolio-contact-v1"
             className="flex flex-col w-full md:w-1/2"
-            method="post"
+            method="POST"
             data-netlify="true"
           >
-            {/* <input
+            <input
               type="hidden"
               name="form-name"
-              value="portfolio contact v1"
-            /> */}
+              value="portfolio-contact-v1"
+            />
 
             <input
               type="text"
