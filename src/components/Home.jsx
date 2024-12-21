@@ -13,7 +13,10 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             {/* h2 className="text-4xl sm:text-7xl font-bold text-white" */}
-            I'm a Full Stack Developer
+            I'm a{" "}
+            <span className="bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer text-transparent bg-clip-text">
+              Full Stack Developer
+            </span>
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             Hey there, I'm Arslan Shahid. A passionate full-stack web developer
