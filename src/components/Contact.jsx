@@ -15,10 +15,10 @@ const Contact = () => {
         </div>
         <div className="flex justify-center items-center">
           <form
-            name="portfolio contact v1"
+            name="portfolio-contact-v1"
             className="flex flex-col w-full md:w-1/2"
             method="post"
-            netlify
+            data-netlify="true"
           >
             {/* <input
               type="hidden"
