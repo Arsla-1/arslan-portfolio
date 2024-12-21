@@ -14,7 +14,20 @@ const Contact = () => {
           <p className="py-6">Submit the form below to get in touch with me.</p>
         </div>
         <div className="flex justify-center items-center">
-          <form action="" className="flex flex-col w-full md:w-1/2">
+          <form
+            name="portfolio contact v1"
+            action=""
+            className="flex flex-col w-full md:w-1/2"
+            method="post"
+            data-netlify="true"
+            onSubmit="submit"
+          >
+            <input
+              type="hidden"
+              name="form-name"
+              value="portfolio contact v1"
+            />
+
             <input
               type="text"
               name="name"
@@ -34,7 +47,10 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button
+              type="submit"
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+            >
               Let's talk
             </button>
           </form>

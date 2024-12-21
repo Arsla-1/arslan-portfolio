@@ -13,21 +13,23 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto atque
-          animi harum, labore ducimus inventore amet reiciendis obcaecati
-          possimus perspiciatis sunt. Nam recusandae esse omnis, praesentium
-          necessitatibus quia molestias repellendus quaerat autem dolorem
-          exercitationem sunt deleniti illo odio magnam dicta saepe, hic, unde
-          temporibus enim ab sit dolore. Officiis, veniam?
+          Hi, I’m Arslan Shahid, a passionate Full-Stack Web Developer with
+          expertise in HTML, CSS, JavaScript, React, Node.js, MongoDB and CMS
+          platforms. I thrive on building innovative and user-friendly digital
+          solutions that solve real-world problems.
         </p>
         <br />
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-          aliquam officiis, placeat laudantium nihil possimus sit est doloribus
-          blanditiis sint ipsa recusandae perferendis libero? Delectus magnam
-          quo sequi, quibusdam voluptatem ex. Nihil est facilis nobis magnam
-          alias cupiditate voluptatibus nesciunt dolorem. Quasi ea sunt tenetur
-          molestiae omnis quia unde ipsam!
+          With more than 1 year of professional experience, I’ve had the
+          opportunity to work on dynamic web applications, contributing to both
+          front-end and back-end development.
+        </p>
+        <br />
+        <p className="text-xl">
+          When I’m not coding, I love exploring new tech trends, reading books,
+          and learning foreign languages. I’m always eager to learn and embrace
+          challenges that push my boundaries. Feel free to connect with me and
+          let’s create something amazing together!
         </p>
       </div>
     </div>
