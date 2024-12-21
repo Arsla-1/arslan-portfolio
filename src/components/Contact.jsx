@@ -20,13 +20,13 @@ const Contact = () => {
             className="flex flex-col w-full md:w-1/2"
             method="post"
             data-netlify="true"
-            onSubmit="submit"
+            netlify
           >
-            <input
+            {/* <input
               type="hidden"
               name="form-name"
               value="portfolio contact v1"
-            />
+            /> */}
 
             <input
               type="text"
