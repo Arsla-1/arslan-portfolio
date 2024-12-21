@@ -20,12 +20,12 @@ const Home = () => {
             with expertise in MERN stack and major CMS like Wordpress, Shopify
             and Webflow.
           </p>
-          <div>
+          <div className="flex">
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer justify-self-start"
+              className="group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
