@@ -14,7 +14,7 @@ const Contact = () => {
           <p className="py-6">Submit the form below to get in touch with me.</p>
         </div>
         <div className="@apply grid-cols-[1fr_4fr] md:grid items-start">
-          <div className="font-poppins">
+          <div className="font-poppins mb-8">
             <div className="flex gap-3 items-center mt-2 py-6 border-b-[1px]">
               <div className="flex justify-center items-center bg-white p-3 border rounded-full">
                 <i class="fa-solid fa-phone text-black"></i>
