@@ -18,8 +18,6 @@ const Contact = () => {
             name="portfolio-contact-v1"
             className="flex flex-col w-full md:w-1/2"
             method="POST"
-            data-netlify="true"
-            onSubmit={(e) => e.preventDefault()}
           >
             <input
               type="hidden"
