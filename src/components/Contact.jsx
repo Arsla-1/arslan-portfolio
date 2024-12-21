@@ -16,10 +16,8 @@ const Contact = () => {
         <div className="flex justify-center items-center">
           <form
             name="portfolio contact v1"
-            action=""
             className="flex flex-col w-full md:w-1/2"
             method="post"
-            data-netlify="true"
             netlify
           >
             {/* <input
